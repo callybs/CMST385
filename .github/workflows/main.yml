@@ -3,15 +3,15 @@ on:
   push:
     branches:
       - main
-job:
+jobs:
   build-and-deploy:
     runs-on: windows-latest
     steps:
-    - user: actions/checkiut@master
+    - name: Checkout repository
+      uses: actions/checkout@v2
     - name: Deploy to Azure Web App
-      uses: azure/webapps-deploy@v1
+      uses: azure/webapps-deploy@v2
       with:
         app-name: 'CMST385-cbartolomeusobri'
         slot-name: 'production'
-        publish-profile: ${ secrets.AppServiceCMST385 }}
-        
+        publish-profile: ${{ secrets.AppServiceCMST385 }}
