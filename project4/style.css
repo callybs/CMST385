@@ -1,0 +1,113 @@
+body {
+    background-color: #f4f4f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #001253; /* Dark blue for header and footer */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    color: #E14D2A; /* Vibrant orange-red */
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #FD841F; /* Bright orange */
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p {
+    color: #666; /* Dark gray for body text */
+    font-size: 1em;
+    margin: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    margin-top: 1em;
+}
+
+label, input, textarea {
+    display: block;
+    margin: 0.5em 0;
+}
+
+input[type="submit"] {
+    background-color: #3E6D9C; /* Blue for submit button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.product h3 {
+    color: #E14D2A; /* Vibrant orange-red for product titles */
+    font-size: 1.2em;
+}
+
+.product p {
+    color: #666;
+    font-size: 1em;
+}
+
+.product button {
+    background-color: #3E6D9C; /* Blue for buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: #FD841F; /* Bright orange on hover */
+}
